@@ -1,0 +1,169 @@
+/* ****************FAQ BEGINS ************** */
+
+body {
+  background: #fcfdff;
+}
+
+.btn1:hover {
+  background: #ccf1f8;
+  color: black;
+}
+
+.faq-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  position: relative;
+}
+
+.faq-article {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.faq-article ul {
+  margin-top: 1rem;
+  padding-left: 2rem;
+}
+
+.faq-article p,
+ul,
+li {
+  font-weight: 500;
+  font-size: var(--font-size-s);
+  letter-spacing: 0.5px;
+}
+
+.faq-article ul li {
+  list-style: disc;
+  padding-bottom: 1rem;
+}
+
+.faq-article h1 {
+  font-weight: 700;
+  font-size: var(--font-size-xl);
+  text-align: center;
+}
+
+.faq-article h2,
+h3 {
+  color: var(--dim-black);
+}
+
+.faqs h2 {
+  width: 100%;
+  padding: 0 39px;
+
+  margin-top: 3rem;
+  color: var(--dim-black);
+  text-align: center;
+  font-size: var(--font-size-l);
+}
+
+.faqs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.faqs h2 {
+  padding-top: 1rem;
+}
+
+.faqs__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.faq {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  height: fit-content;
+  box-shadow: 0px 10px 20px 5px rgba(212, 127, 169, 0.1),
+    0px 6px 4px rgba(127, 151, 165, 0.25);
+
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.faq h4 {
+  font-size: 1rem;
+  line-height: 2.2;
+}
+
+.faq__icon {
+  align-self: flex-start;
+  font-size: 1.2rem;
+}
+
+.faq p {
+  margin-top: 0.8rem;
+  display: none;
+}
+
+.faq.open p {
+  display: block;
+}
+
+.blur {
+  background: rgb(238, 210, 255);
+  position: absolute;
+  width: 22rem;
+  height: 1rem;
+  border-radius: 50%;
+
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
+}
+
+.blur-2 {
+  background: #c1f5ff;
+  position: absolute;
+  width: 21rem;
+  height: 11rem;
+  border-radius: 50%;
+
+  z-index: -9;
+
+  left: -5rem;
+  top: 22%;
+  filter: blur(73px);
+}
+
+.blur-2-right {
+  background: rgb(255, 224, 240);
+  left: 72%;
+  position: absolute;
+  filter: blur(78px);
+  width: 22rem;
+  height: 11rem;
+  top: 70%;
+  z-index: -44;
+}
+
+.blur-22 {
+  background: rgb(255, 210, 233);
+}
+
+.blr-11 {
+  background: #d0f1f8;
+}
+
+.blr-1 {
+  background: rgb(255, 210, 233);
+  /* background: rgba(255, 0, 122, 1); */
+  top: 80%;
+}
+
+.br3 {
+  left: 70%;
+  background: rgb(238, 210, 255);
+}
