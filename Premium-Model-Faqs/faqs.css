@@ -46,6 +46,7 @@ li {
   font-weight: 700;
   font-size: var(--font-size-xl);
   text-align: center;
+  color: black;
 }
 
 .faq-article h2,
@@ -71,6 +72,7 @@ h3 {
 
 .faqs h2 {
   padding-top: 1rem;
+  color: black;
 }
 
 .faqs__container {

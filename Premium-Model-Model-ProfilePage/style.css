@@ -358,14 +358,16 @@ ul {
 
 .model-polaroids {
   margin-top: 4rem;
-  display: grid;
+  display: none;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  display: none;
 }
 
 .model-polaroids img {
   width: 100%;
+  height: auto;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
 }
 
 .model-video {

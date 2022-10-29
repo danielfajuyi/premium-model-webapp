@@ -206,9 +206,9 @@ ul {
   justify-content: center;
   height: 30rem;
   color: var(--white);
-  background: #424658;
+  background: #25272e;
   background-image: url(../images/team/img3-cut.png);
-  background-position: 50% 50%;
+  background-position: center;
   background-size: cover;
   background-blend-mode: overlay;
   transition: 5s;
@@ -218,7 +218,6 @@ ul {
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-play-state: running;
-  animation-timing-function: ease-in-out;
 }
 
 @keyframes animate {
@@ -286,13 +285,37 @@ ul {
   gap: 5rem;
   margin-top: 40px;
   color: var(--pink);
-  filter: brightness(100%);
+
   font-weight: bold;
   font-size: 18px;
 }
 
-.header-navigation h3 {
+.header-navigation li {
   cursor: pointer;
+}
+
+.header-navigation a {
+  color: var(--pink);
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+}
+
+.header-navigation a.active:hover {
+  transition: all 0.5s ease;
+  font-size: 21px;
+  color: rgb(236, 234, 234);
+}
+
+.header-navigation a.active::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: rgb(236, 234, 234);
+  border-radius: 5px;
+  left: 0;
+  bottom: -17px;
 }
 
 /* Header Section Ends */
